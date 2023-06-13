@@ -1,6 +1,6 @@
 {
   "name": "@ryinner/vue-web-socket",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "vue websocket plugin",
   "main": "dist/index.js",
   "scripts": {
@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/ryinner/vue-web-socket#readme",
   "devDependencies": {
-    "@ryinner/web-socket-manager": "^0.11.0",
+    "@ryinner/web-socket-manager": "^0.11.1",
     "@types/node": "^20.3.1",
     "@typescript-eslint/eslint-plugin": "^5.59.11",
     "@vitejs/plugin-vue": "^4.2.3",
