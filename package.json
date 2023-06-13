@@ -1,0 +1,40 @@
+{
+  "name": "@ryinner/vue-web-socket",
+  "version": "0.1.0",
+  "description": "vue websocket plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryinner/vue-web-socket.git"
+  },
+  "keywords": [
+    "vue",
+    "web-socket",
+    "typescript"
+  ],
+  "author": "ryinner",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ryinner/vue-web-socket/issues"
+  },
+  "homepage": "https://github.com/ryinner/vue-web-socket#readme",
+  "devDependencies": {
+    "@ryinner/web-socket-manager": "^0.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.42.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9",
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.6.5"
+  }
+}
