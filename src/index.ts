@@ -19,6 +19,6 @@ declare module 'vue' {
 }
 
 export { plugin as VueWebSocket };
-export function useWebSocketManager (): typeof ws | undefined {
+export function useWebSocket (): typeof ws | undefined {
     return inject('$webSocket');
 }

@@ -4,7 +4,8 @@ import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
 const appDir = path.resolve(__dirname);
-const indexFile = path.join(appDir, 'src', 'index.ts');
+const srcDir = path.join(appDir, 'src');
+const indexFile = path.join(srcDir, 'index.ts');
 
 export default defineConfig({
     plugins: [

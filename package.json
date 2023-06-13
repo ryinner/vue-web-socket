@@ -11,7 +11,7 @@
   "files": [
     "dist"
   ],
-  "types": "./dist/types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
