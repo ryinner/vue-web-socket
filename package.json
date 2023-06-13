@@ -1,6 +1,6 @@
 {
   "name": "@ryinner/vue-web-socket",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "vue websocket plugin",
   "main": "dist/index.js",
   "scripts": {
